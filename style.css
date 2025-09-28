@@ -65,3 +65,49 @@ sub{
     font-size: 2rem;
     justify-content: space-around;
 }
+h5{
+    display: none;
+}
+@media (max-width:460px) {
+    .clock_border{
+        height: 150px;
+        width: 350px;
+    }
+    .clock{
+        height: 140px;
+        width: 340px;
+    }
+    .part1{
+        font-size: 1.5rem;
+    }
+    .spot1{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:360px) {
+    .clock_border{
+        height: 100px;
+        width: 250px;
+    }
+    .clock{
+        height: 90px;
+        width: 240px;
+    }
+    .part1{
+        font-size: 1.1rem;
+    }
+    .spot1{
+        font-size: 1.1rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    sub{
+        display: none;
+    }
+    h5{
+        display: block;
+        padding:30px 30px;
+        font-size: 1.2rem;
+    }
+}
